@@ -29,7 +29,7 @@ const TweetBox = () => {
       <form>
         <div className="tweetBox__input">
           <Avatar
-            src="https://i.kym-cdn.com/photos/images/original/001/701/586/80c.jpg"
+            src=""
             alt=""
           />
           <input
