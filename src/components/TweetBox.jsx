@@ -11,13 +11,13 @@ const TweetBox = () => {
     e.preventDefault();
 
     db.collection("posts").add({
-      displayName: "Spark",
-      username: "sparkow",
+      displayName: "Guest",
+      username: "guest124542",
       verified: true,
       text: tweetMessage,
       image: tweetImage,
       avatar:
-        "https://i.kym-cdn.com/photos/images/original/001/701/586/80c.jpg",
+        "",
     });
 
     setTweetMessage("");
